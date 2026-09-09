@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ajay & Vismaya — Together Forever</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="preloader"><div class="loader-ring"></div><span>OUR STORY IS BEGINNING</span></div>
+<canvas id="stars"></canvas>
+<div class="petals" id="petals"></div>
+<div class="grain"></div>
+
+<header class="topbar">
+  <a href="#home" class="logo">A<span>♥</span>V</a>
+  <nav>
+    <a href="#home">HOME</a>
+    <a href="#story">OUR STORY</a>
+    <a href="#couple">THE COUPLE</a>
+    <a href="#details">WEDDING DETAILS</a>
+    <a href="#gallery">MOMENTS</a>
+  </nav>
+  <button id="musicBtn" class="music">♫ <span>PLAY MUSIC</span></button>
+</header>
+
+<section id="home" class="hero">
+  <div class="hero-light"></div>
+  <div class="hero-content reveal">
+    <div class="mini-heart">♥</div>
+    <p class="overline">TOGETHER FOREVER</p>
+    <h1><span>AJAY</span><small>&amp;</small><span>VISMAYA</span></h1>
+    <p class="tagline">Two hearts, one beautiful journey...<br>and a lifetime to go.</p>
+    <div class="date-line"><span>♢</span> 25 <b>•</b> 10 <b>•</b> 2026 <span>♢</span></div>
+  </div>
+
+  <div class="hero-photo-wrap reveal">
+    <div class="halo"></div>
+    <div class="ornament top">✦</div>
+    <div class="photo-card tilt">
+      <div class="photo-inner"><img src="assets/couple.png" alt="Ajay and Vismaya"></div>
+    </div>
+    <div class="ornament bottom">✦</div>
+  </div>
+
+  <div class="countdown glass">
+    <div><strong id="days">000</strong><small>DAYS</small></div>
+    <i></i>
+    <div><strong id="hours">00</strong><small>HOURS</small></div>
+    <i></i>
+    <div><strong id="minutes">00</strong><small>MINUTES</small></div>
+    <i></i>
+    <div><strong id="seconds">00</strong><small>SECONDS</small></div>
+  </div>
+  <div class="scroll">SCROLL TO EXPLORE <span></span></div>
+</section>
+
+<section id="story" class="dark-section story">
+  <div class="section-head reveal"><span>01</span><div><p>OUR STORY</p><h2>Two souls,<br><em>one story.</em></h2></div></div>
+  <div class="story-layout">
+    <div class="story-copy reveal">
+      <p>From the first hello to forever, our journey has been filled with love, laughter and countless beautiful moments.</p>
+      <p>Here’s to the beginning of our forever — and to everyone who has been part of our story.</p>
+      <button class="outline-btn" onclick="document.querySelector('#couple').scrollIntoView({behavior:'smooth'})">OUR JOURNEY <span>→</span></button>
+    </div>
+    <div class="timeline reveal">
+      <div class="line"></div>
+      <article><b>01</b><span>♥</span><div><h3>First Met</h3><p>A beautiful beginning</p></div></article>
+      <article><b>02</b><span>♧</span><div><h3>Became Friends</h3><p>More than just friends</p></div></article>
+      <article><b>03</b><span>♥</span><div><h3>Fell in Love</h3><p>It just felt right</p></div></article>
+      <article><b>∞</b><span>∞</span><div><h3>Forever</h3><p>The best is yet to come</p></div></article>
+    </div>
+    <div class="story-polaroids reveal">
+      <div class="polaroid p1"><img src=""assets\_ARW5734.png""><span>♥</span></div>
+      <div class="polaroid p2"><img src=""assets\_ARW5469.png""></div>
+    </div>
+  </div>
+</section>
+
+<section id="couple" class="couple-section">
+  <div class="section-title reveal"><span>THE COUPLE</span><h2>Two hearts. <em>One soul.</em></h2></div>
+  <div class="couple-stage">
+    <div class="portrait-card tilt reveal">
+      <div class="portrait"><img src="assets/couple.png" alt="Ajay"></div>
+      <h3>AJAY</h3><p>GROOM</p>
+    </div>
+    <div class="rings reveal"><div class="ring r1"></div><div class="ring r2"></div><span>♥</span></div>
+    <div class="portrait-card tilt reveal">
+      <div class="portrait bride"><img src="assets/couple.png" alt="Vismaya"></div>
+      <h3>VISMAYA</h3><p>BRIDE</p>
+    </div>
+  </div>
+  <div class="floating-flower f1">✽</div><div class="floating-flower f2">✾</div>
+</section>
+
+<section id="details" class="dark-section details">
+  <div class="section-title reveal"><span>WEDDING DETAILS</span><h2>Be a part of <em>our special day.</em></h2></div>
+  <div class="events">
+    <article class="event tilt reveal"><div class="event-icon">♧</div><small>WEDDING</small><h3>25 / 10 / 2026</h3><p>10:00 PM — 11:00 PM</p></article>
+    <article class="event featured tilt reveal"><div class="event-icon">♢</div><small>RECEPTION</small><h3>25 / 10 / 2026</h3><p>5:00 AM — 8:00 PM</p></article>
+    <article class="event tilt reveal"><div class="event-icon">✦</div><small>VENUE</small><h3>EDEN CONVENTION CENTER</h3><p>AKAMPADAM</p></article>
+</div>
+</section>
+
+<section id="gallery" class="gallery">
+  <div class="gallery-text reveal"><span></span><h2>Moments we’ll<br><em>cherish forever.</em></h2><p>.</p></div>
+  <div class="gallery-grid">
+    <div class="gallery-item big tilt reveal"><img src="assets/couple.png"></div>
+    <div class="gallery-item reveal"><img src="assets/couple.png"></div>
+    <div class="gallery-item reveal"><img src="assets/couple.png"></div>
+  </div>
+</section>
+
+<section class="venue dark-section">
+  <div class="venue-card glass reveal">
+    <div> <span>VENUE</span><h3>EDEN CONVENTION CENTER <br>AKAMPADAM</h3><a
+  class="outline-btn"
+  href="https://maps.app.goo.gl/VCwCEcetYqhLeq8E6"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  VIEW ON MAP <span>↗</span>
+</a></div>
+    <div class="venue-art"><div class="lantern">✦</div><div class="venue-orb"></div></div>
+  </div>  
+</section>
+
+<section class="closing">
+  <div class="closing-rings"><div></div><div></div></div>
+  <p>WITH LOVE,</p><h2>AJAY <em>&amp;</em> VISMAYA</h2>
+  <div class="closing-date">25 · 10 · 2026</div>
+  <p class="forever">THE BEGINNING OF FOREVER</p>
+</section>
+
+<footer><div class="logo">A<span>♥</span>V</div><p>Made BY TG.artz</p></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
